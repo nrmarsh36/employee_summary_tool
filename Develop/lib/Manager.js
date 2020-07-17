@@ -6,11 +6,11 @@ class Manager extends Employee {
     constructor(officeNumber, role) {
         super(name, id, email)
         this.officeNumber = officeNumber
-        const role= "Manager"
-        this.role = role
+        // const role= "Manager"
+        // this.role = role
     }; 
 
-    role() {
-        console.log(`Role: ${this.role}`)
+    getRole() {
+        return 'Manager'
     };
 }
